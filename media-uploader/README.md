@@ -1,0 +1,2 @@
+- Este snippet está hecho para incluirlo en una página de opciones del admin de Wordpress
+- Para incluirlo en un metabox de un Custom Post Type, habría que usar el JS del fichero "js-metabox-snippet.js"
