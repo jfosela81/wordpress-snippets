@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
 
     window.send_to_editor = function(html) {
         imgurl = jQuery('img',html).attr('src');
-        if(jQuery(imgurl).length == 0) {
+        if(imgurl === undefined) {
                 imgurl = jQuery(html).attr('href'); // We do this to get Links like PDF's
         }
         // El ID capturado antes, lo usamos para encontrar el input text "asociado". En mi caso, le puse el mismo
